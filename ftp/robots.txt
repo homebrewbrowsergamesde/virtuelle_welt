@@ -1,0 +1,8 @@
+# robots.txt for Welt
+
+User-agent: *
+Disallow: /cache/
+Disallow: /data/
+Disallow: /editor/
+Disallow: /libraries/
+Disallow: /resources/

@@ -1,0 +1,40 @@
+
+    Welt
+
+
+  Welt (C) 2011-2012  Stephan Kreutzer
+
+  Welt is free software: you can redistribute it and/or modify
+  it under the terms of the GNU Affero General Public License as published by
+  the Free Software Foundation, version 3 of the License.
+
+  Welt is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU Affero General Public License for more details.
+
+  You should have received a copy of the GNU Affero General Public License
+  along with Welt.  If not, see <http://www.gnu.org/licenses/>.
+
+
+    About
+    #####
+
+  Welt is a free image map generator written in PHP. It can be used to
+  draw the GUI for a browsergame or a virtual city.
+
+
+    Installation Instructions
+    #########################
+
+  - Modify $/ftp/data/database_connect.inc.php and $/src/data/database.sql.
+  - Execute $/src/data/database.sql on your MySQL server.
+  - Copy contents of $/ftp/ into the root directory of your Welt web
+    project including all hidden .htaccess files.
+  - Ensure that the directory $/cache/ is writable on your Welt web
+    project.
+  - The directory $/editor/ on your Welt web project is inaccessible via
+    .htaccess by default, you may rename it and replace the access protection
+    with a proper .htaccess and .htpasswd setting. Using the editor always
+    affects the live system, so you may not upload it into your Welt web
+    project but use it only locally.
